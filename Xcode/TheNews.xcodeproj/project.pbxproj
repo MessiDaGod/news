@@ -55,7 +55,7 @@
 		65883ADB24744FF800C1A55A /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65883ADA24744FF800C1A55A /* NotificationCenter.framework */; };
 		65883ADE24744FF800C1A55A /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65883ADD24744FF800C1A55A /* TodayViewController.swift */; };
 		65883AE124744FF800C1A55A /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65883ADF24744FF800C1A55A /* MainInterface.storyboard */; };
-		65883AE524744FF800C1A55A /* Today.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 65883AD824744FF800C1A55A /* Today.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		65883AE524744FF800C1A55A /* Today.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 65883AD824744FF800C1A55A /* Today.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		65883AEE247487BC00C1A55A /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65215EDE24438F08008B4D5A /* ImageDownloader.swift */; };
 		6590EC412589300A00FCB10F /* WashingtonPostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6590EC402589300A00FCB10F /* WashingtonPostCell.swift */; };
 		6590EC4B2589309200FCB10F /* WashingtonPostHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6590EC4A2589309200FCB10F /* WashingtonPostHandler.swift */; };
@@ -109,15 +109,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		65883AE624744FF800C1A55A /* Embed App Extensions */ = {
+		65883AE624744FF800C1A55A /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				65883AE524744FF800C1A55A /* Today.appex in Embed App Extensions */,
+				65883AE524744FF800C1A55A /* Today.appex in Embed Foundation Extensions */,
 			);
-			name = "Embed App Extensions";
+			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -556,7 +556,7 @@
 				6560AE4924411C4A00581008 /* Sources */,
 				6560AE4A24411C4A00581008 /* Frameworks */,
 				6560AE4B24411C4A00581008 /* Resources */,
-				65883AE624744FF800C1A55A /* Embed App Extensions */,
+				65883AE624744FF800C1A55A /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
@@ -627,7 +627,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1140;
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1400;
 				ORGANIZATIONNAME = dk;
 				TargetAttributes = {
 					6560AE4C24411C4A00581008 = {
@@ -875,6 +875,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -935,6 +936,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
